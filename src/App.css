@@ -10,21 +10,33 @@
   width: 100%;
 }
 
-.timer-input-container {
-  width: 100%;
-}
-
-.ant-col {
+.input-container {
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/*.ant-col {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}  */
+
+.record-container {
+  height: 40px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .timer-controls-container {
   display: flex;
   flex-direction: row;
-  align-items: end;
-  margin: 18px 0 18px 0;
+  align-items: stretch;
 }
 
 .timer-control {
@@ -35,8 +47,24 @@
   text-align: start;
   min-width: 350px;
   padding-left: 5px;
+  margin: 0px;
 }
 
+.ant-input-wrapper {
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.input-field {
+  min-width: 98%;
+  border-radius: 12px;
+}
+
+.input-button {
+  position: relative;
+  right: 25px;
+}
 /*
 .App-header {
   height: 100%;
